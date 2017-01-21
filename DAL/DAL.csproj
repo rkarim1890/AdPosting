@@ -71,7 +71,9 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Member\DealsService.cs" />
+    <Compile Include="Member\LawsService.cs" />
     <Compile Include="Member\NewsService.cs" />
+    <Compile Include="Member\TrendingService.cs" />
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

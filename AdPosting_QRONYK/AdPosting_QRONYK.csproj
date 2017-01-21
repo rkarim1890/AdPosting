@@ -193,7 +193,9 @@
     <Compile Include="Areas\Admin\Controllers\NewsController.cs" />
     <Compile Include="Areas\Members\Controllers\DealsController.cs" />
     <Compile Include="Areas\Members\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Members\Controllers\LawsController.cs" />
     <Compile Include="Areas\Members\Controllers\NewsController.cs" />
+    <Compile Include="Areas\Members\Controllers\TrendingController.cs" />
     <Compile Include="Areas\Members\MembersAreaRegistration.cs" />
     <Compile Include="Areas\Members\Models\News\NewsMasterModel.cs" />
     <Compile Include="Areas\Members\Models\News\Class1.cs" />
@@ -640,6 +642,8 @@
     <Content Include="Areas\Members\Views\News\details.cshtml" />
     <Content Include="Areas\Admin\Views\News\AddNews.cshtml" />
     <Content Include="Areas\Members\Views\Deals\Index.cshtml" />
+    <Content Include="Areas\Members\Views\Laws\Index.cshtml" />
+    <Content Include="Areas\Members\Views\Trending\Index.cshtml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -706,7 +710,6 @@
     <Folder Include="Areas\Members\Models\Deals\" />
     <Folder Include="Areas\Members\Models\Laws\" />
     <Folder Include="Areas\Members\Models\Treading\" />
-    <Folder Include="Areas\Members\Views\Laws\" />
     <Folder Include="Areas\Members\Views\Treading\" />
     <Folder Include="Js\" />
   </ItemGroup>

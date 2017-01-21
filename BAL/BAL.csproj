@@ -51,7 +51,9 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Member\DALDealsService.cs" />
+    <Compile Include="Member\DALLawsService.cs" />
     <Compile Include="Member\DALNewsService.cs" />
+    <Compile Include="Member\DALTrendingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
