@@ -1,0 +1,71 @@
+﻿@model AdPosting_QRONYK.Models.LoginModel
+
+@{
+    ViewBag.Title = "Log in";
+}
+
+
+@section featured {
+    <div style="background-image:url(/Images/landing.jpg)">
+        <div class="container">
+
+            <section id="loginForm">
+
+                <div class="container">
+                    <hgroup class="title">
+                        <h1>@ViewBag.Title.</h1>
+                    </hgroup>
+                    <div class="row">
+                        <div class="col-lg-3 col-lg-offset-4 text-center">
+                            <div class="card card-container">
+                                <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+                                <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+                                <p id="profile-name" class="profile-name-card"></p>
+                               
+                                @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.ValidationSummary(true)
+
+                                    <div class="form-signin">
+                                        <span id="reauth-email" class="reauth-email"></span>
+
+                                        @*@Html.LabelFor(m => m.UserName)*@
+                                        @Html.TextBoxFor(m => m.UserName, new { @placeholder = "Email address", @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.UserName)
+
+                                        @*@Html.LabelFor(m => m.Password)*@
+                                        @Html.PasswordFor(m => m.Password, new { placeholder = "Password", @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.Password)
+                                        <div id="remember" class="checkbox">
+                                            @Html.CheckBoxFor(m => m.RememberMe)
+                                            @Html.LabelFor(m => m.RememberMe, new { style = "color:white" })
+                                        </div>
+
+                                        <input type="submit" class="btn btn-lg btn-primary btn-block btn-signin" value="Log in" />
+                                    </div>
+                                    <p style="color:white">
+                                        @Html.ActionLink("Register", "Register") if you don't have an account.
+                                    </p>
+                                }
+                                <a href="#" class="forgot-password">
+                                    Forgot the password?
+                                </a>
+                            </div><!-- /card-container -->
+                        </div><!-- /container -->
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+}
+
+@*<section class="social" id="socialLoginForm">
+        <h2>Use another service to log in.</h2>
+        @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+    </section>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

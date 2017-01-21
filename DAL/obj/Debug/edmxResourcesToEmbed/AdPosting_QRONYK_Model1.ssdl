@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdPosting_QRONYKModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Comments_Deals_Master">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DealsID" Type="int" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="150" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Comments_Laws_Master">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LawsID" Type="int" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="150" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Comments_News_Master">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NewsID" Type="int" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="150" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Comments_Treading_Master">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="int" Nullable="false" />
+    <Property Name="TreadingID" Type="int" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="150" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DealsMaster">
+    <Key>
+      <PropertyRef Name="DealsId" />
+    </Key>
+    <Property Name="DealsId" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Likes" Type="int" />
+    <Property Name="Location_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="150" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="LawsMaster">
+    <Key>
+      <PropertyRef Name="LawsId" />
+    </Key>
+    <Property Name="LawsId" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Likes" Type="int" />
+    <Property Name="Location_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="150" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="NewsMaster">
+    <Key>
+      <PropertyRef Name="NewsId" />
+    </Key>
+    <Property Name="NewsId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Likes" Type="int" />
+    <Property Name="Location_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="150" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TreadingMaster">
+    <Key>
+      <PropertyRef Name="TreadingId" />
+    </Key>
+    <Property Name="TreadingId" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="Likes" Type="int" />
+    <Property Name="Location_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="150" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="56" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="webpages_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="ConfirmationToken" Type="nvarchar" MaxLength="128" />
+    <Property Name="IsConfirmed" Type="bit" />
+    <Property Name="LastPasswordFailureDate" Type="datetime" />
+    <Property Name="PasswordFailuresSinceLastSuccess" Type="int" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="PasswordChangedDate" Type="datetime" />
+    <Property Name="PasswordSalt" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="PasswordVerificationToken" Type="nvarchar" MaxLength="128" />
+    <Property Name="PasswordVerificationTokenExpirationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="webpages_OAuthMembership">
+    <Key>
+      <PropertyRef Name="Provider" />
+      <PropertyRef Name="ProviderUserId" />
+    </Key>
+    <Property Name="Provider" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="ProviderUserId" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="webpages_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="webpages_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Comments_Deals_Master_DealsMaster">
+    <End Role="DealsMaster" Type="Self.DealsMaster" Multiplicity="1" />
+    <End Role="Comments_Deals_Master" Type="Self.Comments_Deals_Master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DealsMaster">
+        <PropertyRef Name="DealsId" />
+      </Principal>
+      <Dependent Role="Comments_Deals_Master">
+        <PropertyRef Name="DealsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_Laws_Master_LawsMaster">
+    <End Role="LawsMaster" Type="Self.LawsMaster" Multiplicity="1" />
+    <End Role="Comments_Laws_Master" Type="Self.Comments_Laws_Master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LawsMaster">
+        <PropertyRef Name="LawsId" />
+      </Principal>
+      <Dependent Role="Comments_Laws_Master">
+        <PropertyRef Name="LawsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_Treading_Master_TreadingMaster">
+    <End Role="TreadingMaster" Type="Self.TreadingMaster" Multiplicity="1" />
+    <End Role="Comments_Treading_Master" Type="Self.Comments_Treading_Master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TreadingMaster">
+        <PropertyRef Name="TreadingId" />
+      </Principal>
+      <Dependent Role="Comments_Treading_Master">
+        <PropertyRef Name="TreadingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommentsMaster_NewsMaster">
+    <End Role="NewsMaster" Type="Self.NewsMaster" Multiplicity="1" />
+    <End Role="Comments_News_Master" Type="Self.Comments_News_Master" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NewsMaster">
+        <PropertyRef Name="NewsId" />
+      </Principal>
+      <Dependent Role="Comments_News_Master">
+        <PropertyRef Name="NewsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_RoleId">
+    <End Role="webpages_Roles" Type="Self.webpages_Roles" Multiplicity="1" />
+    <End Role="webpages_UsersInRoles" Type="Self.webpages_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="webpages_Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="webpages_UsersInRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_UserId">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1" />
+    <End Role="webpages_UsersInRoles" Type="Self.webpages_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="webpages_UsersInRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AdPosting_QRONYKModelStoreContainer">
+    <EntitySet Name="Comments_Deals_Master" EntityType="Self.Comments_Deals_Master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comments_Laws_Master" EntityType="Self.Comments_Laws_Master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comments_News_Master" EntityType="Self.Comments_News_Master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comments_Treading_Master" EntityType="Self.Comments_Treading_Master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DealsMaster" EntityType="Self.DealsMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LawsMaster" EntityType="Self.LawsMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NewsMaster" EntityType="Self.NewsMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TreadingMaster" EntityType="Self.TreadingMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserProfile" EntityType="Self.UserProfile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="webpages_Membership" EntityType="Self.webpages_Membership" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="webpages_OAuthMembership" EntityType="Self.webpages_OAuthMembership" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="webpages_Roles" EntityType="Self.webpages_Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="webpages_UsersInRoles" EntityType="Self.webpages_UsersInRoles" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Comments_Deals_Master_DealsMaster" Association="Self.FK_Comments_Deals_Master_DealsMaster">
+      <End Role="DealsMaster" EntitySet="DealsMaster" />
+      <End Role="Comments_Deals_Master" EntitySet="Comments_Deals_Master" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_Laws_Master_LawsMaster" Association="Self.FK_Comments_Laws_Master_LawsMaster">
+      <End Role="LawsMaster" EntitySet="LawsMaster" />
+      <End Role="Comments_Laws_Master" EntitySet="Comments_Laws_Master" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_Treading_Master_TreadingMaster" Association="Self.FK_Comments_Treading_Master_TreadingMaster">
+      <End Role="TreadingMaster" EntitySet="TreadingMaster" />
+      <End Role="Comments_Treading_Master" EntitySet="Comments_Treading_Master" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommentsMaster_NewsMaster" Association="Self.FK_CommentsMaster_NewsMaster">
+      <End Role="NewsMaster" EntitySet="NewsMaster" />
+      <End Role="Comments_News_Master" EntitySet="Comments_News_Master" />
+    </AssociationSet>
+    <AssociationSet Name="fk_RoleId" Association="Self.fk_RoleId">
+      <End Role="webpages_Roles" EntitySet="webpages_Roles" />
+      <End Role="webpages_UsersInRoles" EntitySet="webpages_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="fk_UserId" Association="Self.fk_UserId">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="webpages_UsersInRoles" EntitySet="webpages_UsersInRoles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

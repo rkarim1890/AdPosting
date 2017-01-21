@@ -1,0 +1,82 @@
+﻿@model AdPosting_QRONYK.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+
+@*<hgroup class="title">
+        <h1>@ViewBag.Title.</h1>
+        <h2>Create a new account.</h2>
+    </hgroup>*@
+
+
+
+
+@section featured {
+    <div style="background-image:url(/Images/landing.jpg)">
+        <div class="container">
+
+            <section id="loginForm">
+
+                <div class="container">
+                    <hgroup class="title">
+                        <h1>@ViewBag.Title.</h1>
+                    </hgroup>
+                    <div class="row">
+                        <div class="col-lg-3 col-lg-offset-4 text-center">
+                            <div class="card card-container">
+                                <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+                                @*<img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />*@
+                                <p id="profile-name" class="profile-name-card"></p>
+                                @using (Html.BeginForm())
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.ValidationSummary()
+
+
+                                    <label style="color:white">Create Account</label>
+                                    <div class="row show-grid">
+                                        @Html.LabelFor(m => m.Email, new { style = "color: white;text-align: left;", @class = "col-md-8 control-label" })
+                                        @*<div class="controls">*@
+                                        @Html.TextBoxFor(m => m.Email, new { @class = "col-md-3 form-control" })
+                                        @*</div>*@
+                                    </div>
+                                    <div class="row">
+                                        @Html.LabelFor(m => m.UserName, new { style = "color: white;text-align: left;", @class = "col-md-8 control-label" })
+
+                                        @Html.TextBoxFor(m => m.UserName, new { @class = "col-md-1 form-control" })
+
+                                    </div>
+
+                                    <div class="row">
+                                        @Html.LabelFor(m => m.Password, new { style = "color: white;text-align: left;", @class = "col-md-8 control-label" })
+                                        @Html.PasswordFor(m => m.Password, new { @class = " col-md-1 form-control" })
+                                    </div>
+                                    <div class="row">
+                                        @Html.LabelFor(m => m.ConfirmPassword, new { style = "color: white;text-align: left;", @class = "col-md-8 control-label" })
+                                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "col-md-1  form-control" })
+                                    </div>
+                                    <div style="padding:15px">
+                                        <input type="submit" class="btn btn-lg btn-primary btn-block btn-signin" value="Register" />
+                                    </div>
+                                    @*<input type="submit" value="Register" />*@
+
+                                }
+
+                            </div><!-- /card-container -->
+                        </div><!-- /container -->
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+}
+
+@*<section class="social" id="socialLoginForm">
+        <h2>Use another service to log in.</h2>
+        @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+    </section>*@
+
+@*@section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }*@

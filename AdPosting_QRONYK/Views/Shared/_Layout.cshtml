@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @*@Styles.Render("~/Content/css")*@
+        @Scripts.Render("~/bundles/modernizr")
+        <!-- Bootstrap Core CSS -->
+        <link href="~/Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="~/Content/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+        <!-- Plugin CSS -->
+        <link href="~/Content/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+        <!-- Theme CSS -->
+        <link href="~/Content/css/creative.min.css" rel="stylesheet">
+        <style>
+            .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+                width: 70%;
+                margin: auto;
+            }
+        </style>
+    </head>
+
+
+<body id="page-top" >
+
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="~/Images/AdPosting_logo.png" class="img-responsive" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul style="margin-top:10px" class="nav navbar-nav navbar-right col-md-2">
+                    @*<li>
+                            <a class="btn btn-block btn-success" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#services">Services</a>
+                        </li>*@
+
+                    <li class="btn-group" role="group" aria-label="...">
+                        <button id="btnLogin" type="button" class="btn btn-default">Login</button>
+
+                        @*<button type="button" class="btn btn-default ">Register</button>*@
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Register <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="/account/register"><i class="menu-icon  fa fa-user"></i> As Member</a></li>
+                                <li><a href="/Account/Register_Vendor"><i class="menu-icon  fa fa-users"></i> As Vendor</a></li>
+                              
+                            </ul>
+                        </div>
+
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" style="margin-top: 7px;">
+
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="text" placeholder="City, State, Country, Zipcode">
+                    <button class="btn btn-default" type="submit">Find Near By</button>
+                </form>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    @*<li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>*@
+                    <li><a class="page-scroll" href='/home/#Home'><span>Home</span></a></li>
+
+                    <li><a class="page-scroll" href="/home/#Strain"><span>Strain</span></a></li>
+                    <li><a class="page-scroll" href="/members/news"><span>News</span></a></li>
+                    <li><a class="page-scroll" href="/home/#Ads"><span>Deals</span></a></li>
+                    <li><a class="page-scroll" href='/home/#Laws'><span>Laws</span></a></li>
+                    <li><a class="page-scroll" href='/home/#Trending'><span>Trending</span></a></li>
+                    <li><a class="page-scroll" href='/home/#growlogs'><span>Grow Logs</span></a></li>
+                    <li><a class="page-scroll" href='/home/#Meetup'><span>Meetup</span></a></li>
+                    <li><a class="page-scroll" href='/home/#contact'><span>Contact us</span></a></li>
+                    <li><a class="page-scroll" href='/home/#about'><span>About us</span></a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="navbar navbar-default ">
+
+    </div>
+
+    @*<div id="body">*@
+    @RenderSection("featured", required: false)
+    @*<section class="content-wrapper main-content clear-fix">*@
+    @RenderBody()
+    @*</section>
+        </div>*@
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    <!-- jQuery -->
+    <script src="~/Content/vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Content/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="~/Content/vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="~/Content/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="~/Content/js/creative.min.js"></script>
+
+    <script type="text/javascript">
+        $('#btnLogin').click(function () {
+            document.location = '@Url.Action("Login", "Account")';
+        });
+
+    </script>
+</body>
+@*<body id="page-top">
+    @*<header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
+            </div>
+            <div class="float-right">
+                <section id="login">
+                    @Html.Partial("_LoginPartial")
+                </section>
+                <nav>
+                    <ul id="menu">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>*@
+    @*<div id="body">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper main-content clear-fix">
+            @RenderBody()
+        </section>
+    </div>
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)*@
+@*</body>*@
+</html>

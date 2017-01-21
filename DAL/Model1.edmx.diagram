@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fc00716949a74f458592d0cbf1c84124" Name="Diagram1">
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.Comments_Deals_Master" Width="1.5" PointX="10" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.Comments_Laws_Master" Width="1.5" PointX="8" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.Comments_News_Master" Width="1.5" PointX="8" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.Comments_Treading_Master" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.DealsMaster" Width="1.5" PointX="7.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.LawsMaster" Width="1.5" PointX="5.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.NewsMaster" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.TreadingMaster" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.UserProfile" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.webpages_Membership" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.webpages_OAuthMembership" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdPosting_QRONYKModel.webpages_Roles" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="AdPosting_QRONYKModel.FK_Comments_Deals_Master_DealsMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AdPosting_QRONYKModel.FK_Comments_Laws_Master_LawsMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AdPosting_QRONYKModel.FK_CommentsMaster_NewsMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AdPosting_QRONYKModel.FK_Comments_Treading_Master_TreadingMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="AdPosting_QRONYKModel.webpages_UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

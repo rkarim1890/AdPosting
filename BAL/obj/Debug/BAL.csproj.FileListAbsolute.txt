@@ -1,0 +1,24 @@
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\bin\Debug\BAL.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\bin\Debug\BAL.pdb
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\bin\Debug\DAL.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\bin\Debug\EntityFramework.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\bin\Debug\DAL.pdb
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\bin\Debug\EntityFramework.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\obj\Debug\BAL.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\obj\Debug\BAL.pdb
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\bin\Debug\BAL.dll.config
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\BAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\bin\Debug\BAL.dll.config
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\bin\Debug\BAL.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\bin\Debug\BAL.pdb
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\bin\Debug\DAL.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\bin\Debug\EntityFramework.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\bin\Debug\DAL.pdb
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\bin\Debug\EntityFramework.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\obj\Debug\BAL.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\BAL\obj\Debug\BAL.pdb

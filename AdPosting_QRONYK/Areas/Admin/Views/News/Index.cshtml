@@ -1,0 +1,269 @@
+﻿@model List<DAL.NewsMaster>
+
+@{
+    ViewBag.Title = "Home Page Members";
+}
+@section featured_Admin {
+    
+        <div class="container">
+            <div class="row col-lg-offset-2">
+
+
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <!-- PAGE CONTENT BEGINS -->
+                        <div class="page-header">
+                            <h1>
+                                Members
+                                <small>
+                                    <i class="ace-icon fa fa-angle-double-right"></i>
+                                     News
+                                </small>
+                            </h1>
+                        </div><!-- /.page-header -->
+                        <div class="page-header">
+                            <div class="row">
+                                <div class="col-xs-2 col-lg-offset-10">
+                                    <a class="btn btn-xs btn-success" href="/Admin/News/AddNews">
+                                        <i class="ace-icon fa fa-pencil bigger-120"> Add News</i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <table id="simple-table" class="table  table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th class="center">
+                                                <label class="pos-rel">
+                                                    @*<input type="checkbox" class="ace" />*@
+                                                    <span class="lbl">Sr. No</span>
+                                                </label>
+                                            </th>
+                                            @*<th class="detail-col">Details</th>*@
+                                            <th>Title</th>
+                                            <th>Description</th>
+                                            <th class="hidden-480">IsActive</th>
+
+                                            <th>
+                                                <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>
+                                                Likes
+                                            </th>
+                                            <th class="hidden-480">Location Name</th>
+
+                                           
+                                            <th class="hidden-480">Status</th>
+
+                                            
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        @{int i=0;}
+                                        @foreach (DAL.NewsMaster item in Model)
+                                        {
+                                            i = i + 1;
+                                            <tr>
+                                                <td class="center">
+                                                    <label class="pos-rel">
+                                                        @*<input type="checkbox" class="ace" />*@
+                                                        <span class="lbl">@i.ToString()</span>
+                                                    </label>
+                                                </td>
+
+                                                @*<td class="center">
+                                                    <div class="action-buttons">
+                                                        <a href="#" class="green bigger-140 show-details-btn" title="Show Details">
+                                                            <i class="ace-icon fa fa-angle-double-down"></i>
+                                                            <span class="sr-only">Details</span>
+                                                        </a>
+                                                    </div>
+                                                </td>*@
+
+                                                <td>
+                                                    <a href="#">@item.Title</a>
+                                                </td>
+                                                <td style="width: 40%;">@item.Description</td>
+                                                <td>@item.IsActive</td>
+                                                <td>@item.Likes</td>
+                                                <td>@item.Location_Name</td>
+
+                                              
+
+                                                <td>
+                                                    <div class="hidden-sm hidden-xs btn-group">
+                                                        <button class="btn btn-xs btn-success">
+                                                            <i class="ace-icon fa fa-check bigger-120"></i>
+                                                        </button>
+
+                                                        <button class="btn btn-xs btn-info">
+                                                            <i class="ace-icon fa fa-pencil bigger-120"></i>
+                                                        </button>
+
+                                                        <button class="btn btn-xs btn-danger">
+                                                            <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                                        </button>
+
+                                                        <button class="btn btn-xs btn-warning">
+                                                            <i class="ace-icon fa fa-flag bigger-120"></i>
+                                                        </button>
+                                                    </div>
+
+                                                    <div class="hidden-md hidden-lg">
+                                                        <div class="inline pos-rel">
+                                                            <button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+                                                                <i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+                                                            </button>
+
+                                                            <ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+                                                                <li>
+                                                                    <a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+                                                                        <span class="blue">
+                                                                            <i class="ace-icon fa fa-search-plus bigger-120"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                </li>
+
+                                                                <li>
+                                                                    <a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+                                                                        <span class="green">
+                                                                            <i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                </li>
+
+                                                                <li>
+                                                                    <a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+                                                                        <span class="red">
+                                                                            <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                                                        </span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr class="detail-row">
+                                                <td colspan="8">
+                                                    <div class="table-detail">
+                                                        <div class="row">
+                                                            <div class="col-xs-12 col-sm-2">
+                                                                <div class="text-center">
+                                                                    <img height="150" class="thumbnail inline no-margin-bottom" alt="Domain Owner's Avatar" src="@item.ImagePath" />
+                                                                    <br />
+                                                                    <div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
+                                                                        <div class="inline position-relative">
+                                                                            <a class="user-title-label" href="#">
+                                                                                <i class="ace-icon fa fa-circle light-green"></i>
+                                                                                &nbsp;
+                                                                                <span class="white">Alex M. Doe</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-xs-12 col-sm-7">
+                                                                <div class="space visible-xs"></div>
+
+                                                                <div class="profile-user-info profile-user-info-striped">
+                                                                    <div class="profile-info-row">
+                                                                        <div class="profile-info-name"> Title </div>
+
+                                                                        <div class="profile-info-value">
+                                                                            <span>@item.Title</span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="profile-info-row">
+                                                                        <div class="profile-info-name"> Location </div>
+
+                                                                        <div class="profile-info-value">
+                                                                            <i class="fa fa-map-marker light-orange bigger-110"></i>
+                                                                            <span>@item.Location_Name</span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="profile-info-row">
+                                                                        <div class="profile-info-name"> Description </div>
+
+                                                                        <div class="profile-info-value">
+                                                                            <span>@item.Description.Substring(0,50)</span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="profile-info-row">
+                                                                        <div class="profile-info-name"> Likes </div>
+
+                                                                        <div class="profile-info-value">
+                                                                            <span>@item.Likes</span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="profile-info-row">
+                                                                        <div class="profile-info-name"> Comments </div>
+
+                                                                        <div class="profile-info-value">
+                                                                            <span>@item.Comments_News_Master.Count</span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="profile-info-row">
+                                                                        <div class="profile-info-name"> Created By </div>
+
+                                                                        <div class="profile-info-value">
+                                                                            <span>@item.CreatedBy</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-xs-12 col-sm-3">
+                                                                <div class="space visible-xs"></div>
+                                                                <h4 class="header blue lighter less-margin">Send a message to Alex</h4>
+
+                                                                <div class="space-6"></div>
+
+                                                                <form>
+                                                                    <fieldset>
+                                                                        <textarea class="width-100" resize="none" placeholder="Type something…"></textarea>
+                                                                    </fieldset>
+
+                                                                    <div class="hr hr-dotted"></div>
+
+                                                                    <div class="clearfix">
+                                                                        <label class="pull-left">
+                                                                            <input type="checkbox" class="ace" />
+                                                                            <span class="lbl"> Email me a copy</span>
+                                                                        </label>
+
+                                                                        <button class="pull-right btn btn-sm btn-primary btn-white btn-round" type="button">
+                                                                            Submit
+                                                                            <i class="ace-icon fa fa-arrow-right icon-on-right bigger-110"></i>
+                                                                        </button>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div><!-- /.span -->
+                        </div><!-- /.row -->
+                    </div>
+                </div>
+
+
+
+</div>
+</div>
+}
+

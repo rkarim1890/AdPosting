@@ -1,0 +1,42 @@
+﻿@model List<DAL.DealsMaster>
+
+@{
+    ViewBag.Title = "AdPosting - Deals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section featured {
+    <section class="bg-info" id="Home">
+            <div class="container">
+                <div class="row col-lg-offset-2">
+
+                    @foreach (DAL.DealsMaster item in Model)
+                    {
+<div class="col-sm-3 col-lg-3 col-md-3 ">
+                            <div class="thumbnail">
+                                <img src="@item.ImagePath" style="height: 150px;width: 320px;" alt="">
+                                <div class="caption">
+                                    @*<h4 class="pull-right">$24.99</h4>*@
+                        <h4>
+                                        <a href="/members/news/details/@item.DealsId">@item.Title</a>
+                                    </h4>
+                                    <p>@item.Description.Substring(0, 150)</p>
+                                </div>
+
+                                <div class="well " style="margin-bottom: 0px;">
+                                    <b class="pull-right">@item.Likes Comments</b>
+                                    @*  <input value="@item.NewsId" id="hNewsID" name="sth" type="hidden">*@
+                        <input value="like" id="likeunlike_@item.DealsId" name="sth" type="hidden">
+                                    <i id="btnLike" class="fa fa-thumbs-o-up" style="cursor: pointer;" aria-hidden="true" onclick="likeunlike(@item.DealsId);"><b id="@item.DealsId"> likes(@item.Likes)</b></i>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    }
+}
+
+</div>
+</div>
+</section>

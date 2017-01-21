@@ -1,0 +1,183 @@
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\AdPosting_QRONYK.dll.config
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\AdPosting_QRONYK.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\AdPosting_QRONYK.pdb
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Antlr3.Runtime.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.AspNet.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.Core.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.OAuth.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.OpenId.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\EntityFramework.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Microsoft.Data.Edm.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Microsoft.Data.OData.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Newtonsoft.Json.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Net.Http.Formatting.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Spatial.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Helpers.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Http.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Http.OData.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Http.WebHost.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Mvc.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Optimization.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Razor.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.WebPages.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\WebGrease.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\WebMatrix.Data.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\WebMatrix.WebData.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\EntityFramework.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Newtonsoft.Json.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Net.Http.Formatting.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Helpers.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Http.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Http.WebHost.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Mvc.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Razor.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.WebPages.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\WebMatrix.Data.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\WebMatrix.WebData.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.AspNet.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.Core.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.OAuth.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.OpenId.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Web.Http.OData.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Microsoft.Data.Edm.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\Microsoft.Data.OData.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\System.Spatial.xml
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\de\Microsoft.Data.OData.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\es\Microsoft.Data.OData.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\it\Microsoft.Data.OData.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\de\System.Spatial.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\es\System.Spatial.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\fr\System.Spatial.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\it\System.Spatial.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\ja\System.Spatial.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\ko\System.Spatial.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\ru\System.Spatial.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\zh-Hans\System.Spatial.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\zh-Hant\System.Spatial.resources.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\obj\Debug\AdPosting_QRONYK.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\obj\Debug\AdPosting_QRONYK.pdb
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\obj\Debug\AdPosting_QRONYK.csprojResolveAssemblyReference.cache
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\BAL.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DAL.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\BAL.pdb
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\DAL.pdb
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\EntityFramework.SqlServer.dll
+D:\Projects\Sam\AdPosting_QRONYK\AdPosting_QRONYK\AdPosting_QRONYK\bin\EntityFramework.SqlServer.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\AdPosting_QRONYK.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\AdPosting_QRONYK.pdb
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Antlr3.Runtime.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\BAL.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DAL.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.AspNet.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.Core.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.OAuth.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.OpenId.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\EntityFramework.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\EntityFramework.SqlServer.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Microsoft.Data.Edm.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Microsoft.Data.OData.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Microsoft.Web.Infrastructure.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Newtonsoft.Json.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Net.Http.Formatting.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Spatial.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Helpers.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Http.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Http.OData.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Http.WebHost.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Mvc.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Optimization.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Razor.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.WebPages.Deployment.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.WebPages.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.WebPages.Razor.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\WebGrease.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\WebMatrix.Data.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\WebMatrix.WebData.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\BAL.pdb
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DAL.pdb
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\EntityFramework.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\EntityFramework.SqlServer.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Newtonsoft.Json.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Net.Http.Formatting.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Helpers.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Http.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Http.WebHost.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Mvc.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Razor.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.WebPages.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.WebPages.Deployment.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.WebPages.Razor.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\WebMatrix.Data.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\WebMatrix.WebData.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.AspNet.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.Core.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.OAuth.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.OpenId.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Web.Http.OData.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Microsoft.Data.Edm.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\Microsoft.Data.OData.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\System.Spatial.xml
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\de\Microsoft.Data.Edm.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\es\Microsoft.Data.Edm.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\it\Microsoft.Data.Edm.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\de\Microsoft.Data.OData.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\es\Microsoft.Data.OData.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\fr\Microsoft.Data.OData.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\it\Microsoft.Data.OData.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\ja\Microsoft.Data.OData.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\ko\Microsoft.Data.OData.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\ru\Microsoft.Data.OData.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\de\System.Spatial.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\es\System.Spatial.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\fr\System.Spatial.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\it\System.Spatial.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\ja\System.Spatial.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\ko\System.Spatial.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\ru\System.Spatial.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\zh-Hans\System.Spatial.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\bin\zh-Hant\System.Spatial.resources.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\obj\Debug\AdPosting_QRONYK.csprojResolveAssemblyReference.cache
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\obj\Debug\AdPosting_QRONYK.dll
+E:\All Projects\Sam\AdPosting_QRONYK\AdPosting\AdPosting_QRONYK\obj\Debug\AdPosting_QRONYK.pdb
